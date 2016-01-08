@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_sort"
+        android:title="Sort by"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <!--<group android:checkableBehavior="single">-->
+                <item android:id="@+id/menu_sort_most_popular"
+                    android:title="Most Poular" />
+                <item android:id="@+id/menu_sort_highest_rated"
+                    android:title="Highest Rated" />
+                <item android:id="@+id/menu_sort_favorite"
+                    android:title="Favorites" />
+            <!-- </group> -->
+        </menu>
+    </item>
+</menu>

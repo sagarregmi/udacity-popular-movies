@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">PopularMovies</string>
     <string name="hello_world">Hello World !</string>
+    <string name="click_me">Click Me!</string>
+    <string name="click_me_again">Click Me Again!</string>
+    <string name="tmdb_api_key">3cb8a15157f88ecab3d2c46d84d51c09</string>
 </resources>
